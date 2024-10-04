@@ -1,0 +1,105 @@
+{
+    "id": "447fcda1-0574-4456-b3b6-09ae4ce413ba",
+    "created_at": "2024-09-18T09:18:36Z",
+    "update_at": "2024-09-18T09:20:28Z",
+    "global_timeout": 90,
+    "tunnel_name": "",
+    "start_time": "2024-09-18T09:19:00Z",
+    "end_time": "2024-09-18T09:20:28Z",
+    "summary": {
+        "total_time": 88000000000,
+        "execution_time": 88000000000,
+        "total_tasks": 1,
+        "build_time_consumed": 88000000000,
+        "jobTestExecutionTime": "22s",
+        "failed_tasks": 1,
+        "total_stage_info": {
+            "prerun": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 1
+            },
+            "scenario": {
+                "StageFailedPercent": 100,
+                "StagePassPercent": 0,
+                "TotalStage": 2
+            },
+            "test_discovery": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 1
+            }
+        },
+        "status": "failed",
+        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=447fcda1-0574-4456-b3b6-09ae4ce413ba"
+    },
+    "tasks": [
+        {
+            "id": "83c7a230-eb30-418a-a4fc-d7ae7922c691",
+            "os": "linux",
+            "status": "failed",
+            "remark": "error in running test suites - step 1 - exit status 1",
+            "debug": false,
+            "created_at": "2024-09-18T09:18:56Z",
+            "update_at": "2024-09-18T09:20:28Z",
+            "start_time": "2024-09-18T09:19:00Z",
+            "end_time": "2024-09-18T09:20:28Z",
+            "group_number": 1,
+            "stages": [
+                {
+                    "id": "491148fa-6d24-44f6-bb0f-6028449f7e47",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2024-09-18T09:19:06Z",
+                    "started_at": "2024-09-18T09:19:07Z",
+                    "updated_at": "2024-09-18T09:19:20.9084106Z",
+                    "order": 1,
+                    "task_number": 1
+                },
+                {
+                    "id": "37c16979-d14a-47f2-b615-d2cf88ac804a",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2024-09-18T09:19:21Z",
+                    "started_at": "2024-09-18T09:19:22Z",
+                    "updated_at": "2024-09-18T09:19:23.029772109Z",
+                    "order": 2,
+                    "task_number": 1
+                },
+                {
+                    "id": "adaadafb-e518-44f7-a468-175fb20f37f0",
+                    "type": "scenario",
+                    "status": "failed",
+                    "name": "android-launch.yaml",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2024-09-18T09:19:33Z",
+                    "started_at": "2024-09-18T09:19:33Z",
+                    "updated_at": "2024-09-18T09:19:51.664078227Z",
+                    "order": 3,
+                    "task_number": 1
+                },
+                {
+                    "id": "34b26bd0-a667-4449-93e3-3aa28e07b163",
+                    "type": "scenario",
+                    "status": "failed",
+                    "name": "android-swipe.yaml",
+                    "iteration": 0,
+                    "link": "command.2.0.log",
+                    "created_at": "2024-09-18T09:19:51Z",
+                    "started_at": "2024-09-18T09:19:51Z",
+                    "updated_at": "2024-09-18T09:20:08.927357946Z",
+                    "order": 4,
+                    "task_number": 1
+                }
+            ]
+        }
+    ],
+    "test_ids": null
+}

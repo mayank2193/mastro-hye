@@ -1,0 +1,321 @@
+{"level":"warn","time":"2024-09-18T14:29:35.228+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-09-18T14:29:35.229+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-09-18T14:29:36.270+0530","caller":"cmd/bin.go:120","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-09-18T14:29:37.074+0530","caller":"cmd/bin.go:129","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.214} "}
+{"level":"warn","time":"2024-09-18T14:29:37.077+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-09-18T14:29:37.078+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-09-18T14:29:39.511+0530","caller":"core/lifecycle.go:104","msg":"Setting environment"}
+{"level":"debug","time":"2024-09-18T14:29:39.511+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2024-09-18T14:29:39.511+0530","caller":"yamlconfigmanager/setup.go:593","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/maestro.yaml"}
+{"level":"debug","time":"2024-09-18T14:29:39.512+0530","caller":"yamlconfigmanager/setup.go:107","msg":"using hyperexecute config from : yaml/maestro.yaml"}
+{"level":"debug","time":"2024-09-18T14:29:39.903+0530","caller":"yamlconfigmanager/setup.go:2177","msg":"Autodetecting test type in files of path : C:\\Users\\mayankmaurya\\Downloads\\maestro-sample-test-main\\maestro-sample-test-main"}
+{"level":"debug","time":"2024-09-18T14:29:39.904+0530","caller":"yamlconfigmanager/setup.go:445","msg":"Tunnel: false"}
+{"level":"info","time":"2024-09-18T14:29:39.904+0530","caller":"models/HypertestYamlConfig.go:638","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2024-09-18T14:29:39.904+0530","caller":"models/HypertestYamlConfig.go:439","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-09-18T14:29:39.905+0530","caller":"models/HypertestYamlConfig.go:499","msg":"Runson:    \u001b[36mandroid\u001b[0m"}
+{"level":"info","time":"2024-09-18T14:29:39.905+0530","caller":"models/HypertestYamlConfig.go:507","msg":"Concurrency:    \u001b[36m1\u001b[0m"}
+{"level":"info","time":"2024-09-18T14:29:39.905+0530","caller":"models/HypertestYamlConfig.go:524","msg":"Framework:"}
+{"level":"info","time":"2024-09-18T14:29:39.905+0530","caller":"models/HypertestYamlConfig.go:525","msg":"    Name:    \u001b[36mraw\u001b[0m"}
+{"level":"info","time":"2024-09-18T14:29:39.905+0530","caller":"models/HypertestYamlConfig.go:542","msg":"    Discovery Mode:    \u001b[36mlocal\u001b[0m"}
+{"level":"info","time":"2024-09-18T14:29:39.906+0530","caller":"models/HypertestYamlConfig.go:560","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-09-18T14:29:39.906+0530","caller":"models/HypertestYamlConfig.go:571","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-09-18T14:29:39.906+0530","caller":"models/HypertestYamlConfig.go:651","msg":""}
+{"level":"debug","time":"2024-09-18T14:29:39.906+0530","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-09-18T14:29:39.906+0530","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2024-09-18T14:29:39.906+0530","caller":"frameworks/framework.go:59","msg":"version: 0.2"}
+{"level":"info","time":"2024-09-18T14:29:39.906+0530","caller":"raw/raw.go:124","msg":"Using app with unique id - lt://APP10160541191726649767571201"}
+{"level":"debug","time":"2024-09-18T14:29:39.906+0530","caller":"testdiscoverer/discoverer.go:176","msg":"Running discovery command: {cat ./maestro-test/discover.txt []}"}
+{"level":"debug","time":"2024-09-18T14:29:39.906+0530","caller":"testdiscoverer/discoverer.go:81","msg":"Test Discovery Command: cat ./maestro-test/discover.txt"}
+{"level":"info","time":"2024-09-18T14:29:40.200+0530","caller":"testdiscoverer/discoverer.go:123","msg":"\u001b[4m\u001b[1m\u001b[97mTest Discovery Result: 2\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2024-09-18T14:29:40.201+0530","caller":"testdiscoverer/discoverer.go:124","msg":"    \u001b[2mandroid-swipe.yaml\u001b[22m\n    \u001b[2mandroid-launch.yaml\u001b[22m\n"}
+{"level":"info","time":"2024-09-18T14:29:40.202+0530","caller":"core/lifecycle.go:320","msg":"Total tests discovered: 2"}
+{"level":"debug","time":"2024-09-18T14:29:40.730+0530","caller":"core/lifecycle.go:463","msg":"Job ID: e1a6821e-f7bf-4ca1-8262-a348fc14668c"}
+{"level":"debug","time":"2024-09-18T14:29:40.730+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2024-09-18T14:29:40.731+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2024-09-18T14:29:40.730+0530","caller":"core/lifecycle.go:469","msg":"User has provided raw as test type for the job with ID e1a6821e-f7bf-4ca1-8262-a348fc14668c"}
+{"level":"debug","time":"2024-09-18T14:29:40.732+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2024-09-18T14:29:40.732+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: C:\\Users\\mayankmaurya\\Downloads\\maestro-sample-test-main\\maestro-sample-test-main"}
+{"level":"debug","time":"2024-09-18T14:29:41.277+0530","caller":"core/lifecycle.go:598","msg":"Zip file size: 9.90 MB"}
+{"level":"debug","time":"2024-09-18T14:29:41.279+0530","caller":"core/lifecycle.go:608","msg":"Archive location: C:\\Users\\mayankmaurya\\Downloads\\maestro-sample-test-main\\maestro-sample-test-main\\hyperexecute-code-e1a6821e-f7bf-4ca1-8262-a348fc14668c.zip\n"}
+{"level":"debug","time":"2024-09-18T14:29:41.279+0530","caller":"storage/azure.go:59","msg":"Payload size: 9.90 MB, source path C:\\Users\\mayankmaurya\\Downloads\\maestro-sample-test-main\\maestro-sample-test-main\\hyperexecute-code-e1a6821e-f7bf-4ca1-8262-a348fc14668c.zip"}
+{"level":"debug","time":"2024-09-18T14:29:41.280+0530","caller":"utils/azcopy.go:143","msg":"Downloading dependency binary ..................."}
+{"level":"debug","time":"2024-09-18T14:29:42.125+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"debug","time":"2024-09-18T14:29:42.493+0530","caller":"utils/azcopy.go:100","msg":"Downloading dependency to upload files"}
+{"level":"info","time":"2024-09-18T14:29:49.721+0530","caller":"utils/azcopy.go:118","msg":"✔ Dependency binary downloaded successfully"}
+{"level":"debug","time":"2024-09-18T14:29:49.722+0530","caller":"utils/azcopy.go:190","msg":"returning from fallback"}
+{"level":"info","time":"2024-09-18T14:30:00.801+0530","caller":"storage/azure.go:114","msg":"File upload completed in 19.5214247s"}
+{"level":"debug","time":"2024-09-18T14:30:00.802+0530","caller":"receptionmanager/setup.go:255","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-09-18T14:30:00.806+0530","caller":"receptionmanager/setup.go:284","msg":"number of entries in partialreports: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-09-18T14:30:00.808+0530","caller":"receptionmanager/setup.go:172","msg":"Uploading yaml : C:\\Users\\mayankmaurya\\Downloads\\maestro-sample-test-main\\maestro-sample-test-main\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-09-18T14:30:00.809+0530","caller":"storage/azure.go:59","msg":"Payload size: 2.80 kB, source path C:\\Users\\mayankmaurya\\Downloads\\maestro-sample-test-main\\maestro-sample-test-main\\.updatedhyperexecute.yaml"}
+{"level":"info","time":"2024-09-18T14:30:05.404+0530","caller":"storage/azure.go:114","msg":"File upload completed in 4.5962545s"}
+{"level":"debug","time":"2024-09-18T14:30:05.408+0530","caller":"storage/azure.go:59","msg":"Payload size: 720 B, source path yaml\\mask-e1a6821e-f7bf-4ca1-8262-a348fc14668c.yaml"}
+{"level":"info","time":"2024-09-18T14:30:09.799+0530","caller":"storage/azure.go:114","msg":"File upload completed in 4.3926429s"}
+{"level":"debug","time":"2024-09-18T14:30:09.805+0530","caller":"core/lifecycle.go:636","msg":"Successfully deleted code archive: C:\\Users\\mayankmaurya\\Downloads\\maestro-sample-test-main\\maestro-sample-test-main\\hyperexecute-code-e1a6821e-f7bf-4ca1-8262-a348fc14668c.zip\n"}
+{"level":"debug","time":"2024-09-18T14:30:11.558+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 8a7d140c-f6db-4095-9c0f-589b5f9ac5ef"}
+{"level":"debug","time":"2024-09-18T14:30:11.560+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 8a7d140c-f6db-4095-9c0f-589b5f9ac5ef"}
+{"level":"info","time":"2024-09-18T14:30:26.384+0530","caller":"jobmanager/sse_setup.go:85","msg":"\nJob e1a6821e-f7bf-4ca1-8262-a348fc14668c has started RUNNING"}
+{"level":"info","time":"2024-09-18T14:30:26.385+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=e1a6821e-f7bf-4ca1-8262-a348fc14668c\n"}
+{"level":"debug","time":"2024-09-18T14:30:34.799+0530","caller":"jobmanager/sse_setup.go:136","msg":"\n\nJob status"}
+{"level":"info","time":"2024-09-18T14:30:34.800+0530","caller":"core/lifecycle.go:716","msg":"taskId:8a7d140c-f6db-4095-9c0f-589b5f9ac5ef has failed with remark: step 1 - exit status 126\n"}
+{"level":"debug","time":"2024-09-18T14:30:34.800+0530","caller":"core/lifecycle.go:808","msg":"Context canceled"}
+{"level":"info","time":"2024-09-18T14:30:34.800+0530","caller":"core/lifecycle.go:811","msg":"Stopping pipeline gracefully"}
+{"level":"error","time":"2024-09-18T14:30:34.801+0530","caller":"core/lifecycle.go:814","msg":"2024-09-18T14:29:35+05:30    error    Exiting with error: Failed tasks found."}
+{"level":"info","time":"2024-09-18T14:30:34.801+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=e1a6821e-f7bf-4ca1-8262-a348fc14668c\n"}
+{"level":"debug","time":"2024-09-18T14:30:34.802+0530","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-09-18T14:30:34.802+0530","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2024-09-18T14:30:51.457+0530","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n FAILED \n"}
+{"level":"info","time":"2024-09-18T14:30:51.458+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Test Execution Time:                  0s"}
+{"level":"info","time":"2024-09-18T14:30:51.460+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Job Duration Time:                    8s"}
+{"level":"info","time":"2024-09-18T14:30:51.460+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Tasks:                          1"}
+{"level":"info","time":"2024-09-18T14:30:51.460+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Cumulative Time Consumed:             8s"}
+{"level":"info","time":"2024-09-18T14:30:51.461+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Stages:                         1"}
+{"level":"info","time":"2024-09-18T14:30:51.461+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass discovery stage percentage:      0.00%"}
+{"level":"info","time":"2024-09-18T14:30:51.461+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"info","time":"2024-09-18T14:30:51.461+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass pre stage percentage:            0.00%"}
+{"level":"info","time":"2024-09-18T14:30:51.461+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed pre stage percentage:          100.00%"}
+{"level":"info","time":"2024-09-18T14:30:51.462+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass test stage percentage:           0.00%"}
+{"level":"info","time":"2024-09-18T14:30:51.462+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed test stage percentage:         0.00%"}
+{"level":"info","time":"2024-09-18T14:30:51.462+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass post stage percentage:           0.00%"}
+{"level":"info","time":"2024-09-18T14:30:51.463+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed post stage percentage:         0.00%"}
+{"level":"info","time":"2024-09-18T14:30:51.463+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed Tasks:                         1"}
+{"level":"info","time":"2024-09-18T14:30:51.463+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2024-09-18T14:31:04.814+0530","caller":"cmd/bin.go:306","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2024-09-18T14:31:04.814+0530","caller":"cmd/bin.go:345","msg":"Exiting application due to error Failed tasks found."}
+{"level":"warn","time":"2024-09-18T14:32:28.199+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-09-18T14:32:28.200+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-09-18T14:32:28.621+0530","caller":"cmd/bin.go:120","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-09-18T14:32:29.072+0530","caller":"cmd/bin.go:129","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.214} "}
+{"level":"warn","time":"2024-09-18T14:32:29.075+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-09-18T14:32:29.076+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-09-18T14:32:30.455+0530","caller":"core/lifecycle.go:104","msg":"Setting environment"}
+{"level":"debug","time":"2024-09-18T14:32:30.455+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2024-09-18T14:32:30.455+0530","caller":"yamlconfigmanager/setup.go:593","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/maestro.yaml"}
+{"level":"debug","time":"2024-09-18T14:32:30.456+0530","caller":"yamlconfigmanager/setup.go:107","msg":"using hyperexecute config from : yaml/maestro.yaml"}
+{"level":"debug","time":"2024-09-18T14:32:30.877+0530","caller":"yamlconfigmanager/setup.go:2177","msg":"Autodetecting test type in files of path : C:\\Users\\mayankmaurya\\Downloads\\maestro-sample-test-main\\maestro-sample-test-main"}
+{"level":"debug","time":"2024-09-18T14:32:30.877+0530","caller":"yamlconfigmanager/setup.go:445","msg":"Tunnel: false"}
+{"level":"info","time":"2024-09-18T14:32:30.877+0530","caller":"models/HypertestYamlConfig.go:638","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2024-09-18T14:32:30.878+0530","caller":"models/HypertestYamlConfig.go:439","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-09-18T14:32:30.878+0530","caller":"models/HypertestYamlConfig.go:499","msg":"Runson:    \u001b[36mandroid\u001b[0m"}
+{"level":"info","time":"2024-09-18T14:32:30.878+0530","caller":"models/HypertestYamlConfig.go:507","msg":"Concurrency:    \u001b[36m1\u001b[0m"}
+{"level":"info","time":"2024-09-18T14:32:30.878+0530","caller":"models/HypertestYamlConfig.go:524","msg":"Framework:"}
+{"level":"info","time":"2024-09-18T14:32:30.878+0530","caller":"models/HypertestYamlConfig.go:525","msg":"    Name:    \u001b[36mraw\u001b[0m"}
+{"level":"info","time":"2024-09-18T14:32:30.879+0530","caller":"models/HypertestYamlConfig.go:542","msg":"    Discovery Mode:    \u001b[36mlocal\u001b[0m"}
+{"level":"info","time":"2024-09-18T14:32:30.879+0530","caller":"models/HypertestYamlConfig.go:560","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-09-18T14:32:30.879+0530","caller":"models/HypertestYamlConfig.go:571","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-09-18T14:32:30.880+0530","caller":"models/HypertestYamlConfig.go:651","msg":""}
+{"level":"debug","time":"2024-09-18T14:32:30.880+0530","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-09-18T14:32:30.880+0530","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2024-09-18T14:32:30.880+0530","caller":"frameworks/framework.go:59","msg":"version: 0.2"}
+{"level":"info","time":"2024-09-18T14:32:30.880+0530","caller":"raw/raw.go:124","msg":"Using app with unique id - lt://APP10160541191726649767571201"}
+{"level":"debug","time":"2024-09-18T14:32:30.880+0530","caller":"testdiscoverer/discoverer.go:176","msg":"Running discovery command: {cat ./maestro-test/discover.txt []}"}
+{"level":"debug","time":"2024-09-18T14:32:30.880+0530","caller":"testdiscoverer/discoverer.go:81","msg":"Test Discovery Command: cat ./maestro-test/discover.txt"}
+{"level":"info","time":"2024-09-18T14:32:31.032+0530","caller":"testdiscoverer/discoverer.go:123","msg":"\u001b[4m\u001b[1m\u001b[97mTest Discovery Result: 2\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2024-09-18T14:32:31.032+0530","caller":"testdiscoverer/discoverer.go:124","msg":"    \u001b[2mandroid-swipe.yaml\u001b[22m\n    \u001b[2mandroid-launch.yaml\u001b[22m\n"}
+{"level":"info","time":"2024-09-18T14:32:31.033+0530","caller":"core/lifecycle.go:320","msg":"Total tests discovered: 2"}
+{"level":"debug","time":"2024-09-18T14:32:31.647+0530","caller":"core/lifecycle.go:463","msg":"Job ID: cf9bc56c-6bb5-46c7-a44d-519f184f6da5"}
+{"level":"debug","time":"2024-09-18T14:32:31.647+0530","caller":"core/lifecycle.go:469","msg":"User has provided raw as test type for the job with ID cf9bc56c-6bb5-46c7-a44d-519f184f6da5"}
+{"level":"debug","time":"2024-09-18T14:32:31.647+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2024-09-18T14:32:31.648+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2024-09-18T14:32:31.650+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2024-09-18T14:32:31.650+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: C:\\Users\\mayankmaurya\\Downloads\\maestro-sample-test-main\\maestro-sample-test-main"}
+{"level":"debug","time":"2024-09-18T14:32:32.125+0530","caller":"core/lifecycle.go:598","msg":"Zip file size: 9.90 MB"}
+{"level":"debug","time":"2024-09-18T14:32:32.128+0530","caller":"core/lifecycle.go:608","msg":"Archive location: C:\\Users\\mayankmaurya\\Downloads\\maestro-sample-test-main\\maestro-sample-test-main\\hyperexecute-code-cf9bc56c-6bb5-46c7-a44d-519f184f6da5.zip\n"}
+{"level":"debug","time":"2024-09-18T14:32:32.130+0530","caller":"storage/azure.go:59","msg":"Payload size: 9.90 MB, source path C:\\Users\\mayankmaurya\\Downloads\\maestro-sample-test-main\\maestro-sample-test-main\\hyperexecute-code-cf9bc56c-6bb5-46c7-a44d-519f184f6da5.zip"}
+{"level":"debug","time":"2024-09-18T14:32:32.829+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2024-09-18T14:32:45.330+0530","caller":"storage/azure.go:114","msg":"File upload completed in 13.2006527s"}
+{"level":"debug","time":"2024-09-18T14:32:45.331+0530","caller":"receptionmanager/setup.go:255","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-09-18T14:32:45.331+0530","caller":"receptionmanager/setup.go:284","msg":"number of entries in partialreports: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-09-18T14:32:45.331+0530","caller":"receptionmanager/setup.go:172","msg":"Uploading yaml : C:\\Users\\mayankmaurya\\Downloads\\maestro-sample-test-main\\maestro-sample-test-main\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-09-18T14:32:45.332+0530","caller":"storage/azure.go:59","msg":"Payload size: 2.89 kB, source path C:\\Users\\mayankmaurya\\Downloads\\maestro-sample-test-main\\maestro-sample-test-main\\.updatedhyperexecute.yaml"}
+{"level":"info","time":"2024-09-18T14:32:49.380+0530","caller":"storage/azure.go:114","msg":"File upload completed in 4.0487127s"}
+{"level":"debug","time":"2024-09-18T14:32:49.382+0530","caller":"storage/azure.go:59","msg":"Payload size: 767 B, source path yaml\\mask-cf9bc56c-6bb5-46c7-a44d-519f184f6da5.yaml"}
+{"level":"info","time":"2024-09-18T14:32:53.654+0530","caller":"storage/azure.go:114","msg":"File upload completed in 4.2722456s"}
+{"level":"debug","time":"2024-09-18T14:32:53.658+0530","caller":"core/lifecycle.go:636","msg":"Successfully deleted code archive: C:\\Users\\mayankmaurya\\Downloads\\maestro-sample-test-main\\maestro-sample-test-main\\hyperexecute-code-cf9bc56c-6bb5-46c7-a44d-519f184f6da5.zip\n"}
+{"level":"debug","time":"2024-09-18T14:32:55.537+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: a78cc980-03cf-4d22-befe-1b5e753bea47"}
+{"level":"debug","time":"2024-09-18T14:32:55.539+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: a78cc980-03cf-4d22-befe-1b5e753bea47"}
+{"level":"info","time":"2024-09-18T14:33:01.413+0530","caller":"jobmanager/sse_setup.go:85","msg":"\nJob cf9bc56c-6bb5-46c7-a44d-519f184f6da5 has started RUNNING"}
+{"level":"info","time":"2024-09-18T14:33:01.415+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=cf9bc56c-6bb5-46c7-a44d-519f184f6da5\n"}
+{"level":"debug","time":"2024-09-18T14:33:53.291+0530","caller":"jobmanager/sse_setup.go:136","msg":"\n\nJob status"}
+{"level":"debug","time":"2024-09-18T14:33:53.295+0530","caller":"core/lifecycle.go:808","msg":"Context canceled"}
+{"level":"info","time":"2024-09-18T14:33:53.296+0530","caller":"core/lifecycle.go:811","msg":"Stopping pipeline gracefully"}
+{"level":"info","time":"2024-09-18T14:33:53.296+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=cf9bc56c-6bb5-46c7-a44d-519f184f6da5\n"}
+{"level":"debug","time":"2024-09-18T14:33:53.297+0530","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-09-18T14:33:53.299+0530","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2024-09-18T14:34:09.963+0530","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n PARTIALLY COMPLETED \n"}
+{"level":"info","time":"2024-09-18T14:34:09.964+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Test Execution Time:                  2s"}
+{"level":"info","time":"2024-09-18T14:34:09.964+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Job Duration Time:                    52s"}
+{"level":"info","time":"2024-09-18T14:34:09.964+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Tasks:                          1"}
+{"level":"info","time":"2024-09-18T14:34:09.964+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Cumulative Time Consumed:             52s"}
+{"level":"info","time":"2024-09-18T14:34:09.965+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Stages:                         4"}
+{"level":"info","time":"2024-09-18T14:34:09.965+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass discovery stage percentage:      100.00%"}
+{"level":"info","time":"2024-09-18T14:34:09.965+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"info","time":"2024-09-18T14:34:09.966+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass pre stage percentage:            100.00%"}
+{"level":"info","time":"2024-09-18T14:34:09.966+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed pre stage percentage:          0.00%"}
+{"level":"info","time":"2024-09-18T14:34:09.966+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass test stage percentage:           100.00%"}
+{"level":"info","time":"2024-09-18T14:34:09.967+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed test stage percentage:         0.00%"}
+{"level":"info","time":"2024-09-18T14:34:09.967+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass post stage percentage:           0.00%"}
+{"level":"info","time":"2024-09-18T14:34:09.967+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed post stage percentage:         0.00%"}
+{"level":"info","time":"2024-09-18T14:34:09.967+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed Tasks:                         0"}
+{"level":"info","time":"2024-09-18T14:34:09.967+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2024-09-18T14:34:23.308+0530","caller":"cmd/bin.go:306","msg":"main: all goroutines have finished."}
+{"level":"warn","time":"2024-09-18T14:36:45.138+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-09-18T14:36:45.140+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-09-18T14:36:45.768+0530","caller":"cmd/bin.go:120","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-09-18T14:36:46.210+0530","caller":"cmd/bin.go:129","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.214} "}
+{"level":"warn","time":"2024-09-18T14:36:46.211+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-09-18T14:36:46.213+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-09-18T14:36:48.696+0530","caller":"core/lifecycle.go:104","msg":"Setting environment"}
+{"level":"debug","time":"2024-09-18T14:36:48.698+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2024-09-18T14:36:48.698+0530","caller":"yamlconfigmanager/setup.go:593","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/maestro.yaml"}
+{"level":"debug","time":"2024-09-18T14:36:48.704+0530","caller":"yamlconfigmanager/setup.go:107","msg":"using hyperexecute config from : yaml/maestro.yaml"}
+{"level":"debug","time":"2024-09-18T14:36:49.123+0530","caller":"yamlconfigmanager/setup.go:2177","msg":"Autodetecting test type in files of path : C:\\Users\\mayankmaurya\\Downloads\\maestro-sample-test-main\\maestro-sample-test-main"}
+{"level":"debug","time":"2024-09-18T14:36:49.124+0530","caller":"yamlconfigmanager/setup.go:445","msg":"Tunnel: false"}
+{"level":"info","time":"2024-09-18T14:36:49.124+0530","caller":"models/HypertestYamlConfig.go:638","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2024-09-18T14:36:49.128+0530","caller":"models/HypertestYamlConfig.go:439","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-09-18T14:36:49.128+0530","caller":"models/HypertestYamlConfig.go:499","msg":"Runson:    \u001b[36mandroid\u001b[0m"}
+{"level":"info","time":"2024-09-18T14:36:49.129+0530","caller":"models/HypertestYamlConfig.go:507","msg":"Concurrency:    \u001b[36m1\u001b[0m"}
+{"level":"info","time":"2024-09-18T14:36:49.130+0530","caller":"models/HypertestYamlConfig.go:524","msg":"Framework:"}
+{"level":"info","time":"2024-09-18T14:36:49.131+0530","caller":"models/HypertestYamlConfig.go:525","msg":"    Name:    \u001b[36mraw\u001b[0m"}
+{"level":"info","time":"2024-09-18T14:36:49.131+0530","caller":"models/HypertestYamlConfig.go:542","msg":"    Discovery Mode:    \u001b[36mlocal\u001b[0m"}
+{"level":"info","time":"2024-09-18T14:36:49.132+0530","caller":"models/HypertestYamlConfig.go:560","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-09-18T14:36:49.133+0530","caller":"models/HypertestYamlConfig.go:571","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-09-18T14:36:49.133+0530","caller":"models/HypertestYamlConfig.go:651","msg":""}
+{"level":"debug","time":"2024-09-18T14:36:49.134+0530","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-09-18T14:36:49.136+0530","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2024-09-18T14:36:49.136+0530","caller":"frameworks/framework.go:59","msg":"version: 0.2"}
+{"level":"info","time":"2024-09-18T14:36:49.136+0530","caller":"raw/raw.go:124","msg":"Using app with unique id - lt://APP10160541191726649767571201"}
+{"level":"debug","time":"2024-09-18T14:36:49.138+0530","caller":"testdiscoverer/discoverer.go:176","msg":"Running discovery command: {cat ./maestro-test/discover.txt []}"}
+{"level":"debug","time":"2024-09-18T14:36:49.139+0530","caller":"testdiscoverer/discoverer.go:81","msg":"Test Discovery Command: cat ./maestro-test/discover.txt"}
+{"level":"info","time":"2024-09-18T14:36:49.309+0530","caller":"testdiscoverer/discoverer.go:123","msg":"\u001b[4m\u001b[1m\u001b[97mTest Discovery Result: 2\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2024-09-18T14:36:49.310+0530","caller":"testdiscoverer/discoverer.go:124","msg":"    \u001b[2mandroid-swipe.yaml\u001b[22m\n    \u001b[2mandroid-launch.yaml\u001b[22m\n"}
+{"level":"info","time":"2024-09-18T14:36:49.310+0530","caller":"core/lifecycle.go:320","msg":"Total tests discovered: 2"}
+{"level":"debug","time":"2024-09-18T14:36:49.834+0530","caller":"core/lifecycle.go:463","msg":"Job ID: 6855b772-d695-4f06-a891-6cc3ffb53d28"}
+{"level":"debug","time":"2024-09-18T14:36:49.834+0530","caller":"core/lifecycle.go:469","msg":"User has provided raw as test type for the job with ID 6855b772-d695-4f06-a891-6cc3ffb53d28"}
+{"level":"debug","time":"2024-09-18T14:36:49.834+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2024-09-18T14:36:49.835+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2024-09-18T14:36:49.836+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2024-09-18T14:36:49.836+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: C:\\Users\\mayankmaurya\\Downloads\\maestro-sample-test-main\\maestro-sample-test-main"}
+{"level":"debug","time":"2024-09-18T14:36:50.387+0530","caller":"core/lifecycle.go:598","msg":"Zip file size: 9.90 MB"}
+{"level":"debug","time":"2024-09-18T14:36:50.389+0530","caller":"core/lifecycle.go:608","msg":"Archive location: C:\\Users\\mayankmaurya\\Downloads\\maestro-sample-test-main\\maestro-sample-test-main\\hyperexecute-code-6855b772-d695-4f06-a891-6cc3ffb53d28.zip\n"}
+{"level":"debug","time":"2024-09-18T14:36:50.390+0530","caller":"storage/azure.go:59","msg":"Payload size: 9.90 MB, source path C:\\Users\\mayankmaurya\\Downloads\\maestro-sample-test-main\\maestro-sample-test-main\\hyperexecute-code-6855b772-d695-4f06-a891-6cc3ffb53d28.zip"}
+{"level":"debug","time":"2024-09-18T14:36:51.037+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2024-09-18T14:37:00.678+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.2883527s"}
+{"level":"debug","time":"2024-09-18T14:37:00.679+0530","caller":"receptionmanager/setup.go:255","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-09-18T14:37:00.679+0530","caller":"receptionmanager/setup.go:284","msg":"number of entries in partialreports: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-09-18T14:37:00.680+0530","caller":"receptionmanager/setup.go:172","msg":"Uploading yaml : C:\\Users\\mayankmaurya\\Downloads\\maestro-sample-test-main\\maestro-sample-test-main\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-09-18T14:37:00.680+0530","caller":"storage/azure.go:59","msg":"Payload size: 2.88 kB, source path C:\\Users\\mayankmaurya\\Downloads\\maestro-sample-test-main\\maestro-sample-test-main\\.updatedhyperexecute.yaml"}
+{"level":"info","time":"2024-09-18T14:37:04.770+0530","caller":"storage/azure.go:114","msg":"File upload completed in 4.0902592s"}
+{"level":"debug","time":"2024-09-18T14:37:04.772+0530","caller":"storage/azure.go:59","msg":"Payload size: 755 B, source path yaml\\mask-6855b772-d695-4f06-a891-6cc3ffb53d28.yaml"}
+{"level":"info","time":"2024-09-18T14:37:08.894+0530","caller":"storage/azure.go:114","msg":"File upload completed in 4.122352s"}
+{"level":"debug","time":"2024-09-18T14:37:08.900+0530","caller":"core/lifecycle.go:636","msg":"Successfully deleted code archive: C:\\Users\\mayankmaurya\\Downloads\\maestro-sample-test-main\\maestro-sample-test-main\\hyperexecute-code-6855b772-d695-4f06-a891-6cc3ffb53d28.zip\n"}
+{"level":"debug","time":"2024-09-18T14:37:10.814+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: f562ae5a-35de-4521-8bba-bac6d1c04dd8"}
+{"level":"debug","time":"2024-09-18T14:37:10.814+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: f562ae5a-35de-4521-8bba-bac6d1c04dd8"}
+{"level":"info","time":"2024-09-18T14:37:17.538+0530","caller":"jobmanager/sse_setup.go:85","msg":"\nJob 6855b772-d695-4f06-a891-6cc3ffb53d28 has started RUNNING"}
+{"level":"info","time":"2024-09-18T14:37:17.539+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=6855b772-d695-4f06-a891-6cc3ffb53d28\n"}
+{"level":"debug","time":"2024-09-18T14:38:48.439+0530","caller":"jobmanager/sse_setup.go:136","msg":"\n\nJob status"}
+{"level":"info","time":"2024-09-18T14:38:48.442+0530","caller":"core/lifecycle.go:716","msg":"taskId:f562ae5a-35de-4521-8bba-bac6d1c04dd8 has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"debug","time":"2024-09-18T14:38:48.443+0530","caller":"core/lifecycle.go:808","msg":"Context canceled"}
+{"level":"info","time":"2024-09-18T14:38:48.443+0530","caller":"core/lifecycle.go:811","msg":"Stopping pipeline gracefully"}
+{"level":"error","time":"2024-09-18T14:38:48.444+0530","caller":"core/lifecycle.go:814","msg":"2024-09-18T14:36:45+05:30    error    Exiting with error: Failed tasks found."}
+{"level":"info","time":"2024-09-18T14:38:48.445+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=6855b772-d695-4f06-a891-6cc3ffb53d28\n"}
+{"level":"debug","time":"2024-09-18T14:38:48.445+0530","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-09-18T14:38:48.445+0530","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2024-09-18T14:39:05.050+0530","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n FAILED \n"}
+{"level":"info","time":"2024-09-18T14:39:05.053+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Test Execution Time:                  23s"}
+{"level":"info","time":"2024-09-18T14:39:05.054+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Job Duration Time:                    1m30s"}
+{"level":"info","time":"2024-09-18T14:39:05.054+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Tasks:                          1"}
+{"level":"info","time":"2024-09-18T14:39:05.055+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Cumulative Time Consumed:             1m30s"}
+{"level":"info","time":"2024-09-18T14:39:05.055+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Stages:                         4"}
+{"level":"info","time":"2024-09-18T14:39:05.056+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass discovery stage percentage:      100.00%"}
+{"level":"info","time":"2024-09-18T14:39:05.056+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"info","time":"2024-09-18T14:39:05.057+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass pre stage percentage:            100.00%"}
+{"level":"info","time":"2024-09-18T14:39:05.057+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed pre stage percentage:          0.00%"}
+{"level":"info","time":"2024-09-18T14:39:05.058+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass test stage percentage:           0.00%"}
+{"level":"info","time":"2024-09-18T14:39:05.058+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed test stage percentage:         100.00%"}
+{"level":"info","time":"2024-09-18T14:39:05.058+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass post stage percentage:           0.00%"}
+{"level":"info","time":"2024-09-18T14:39:05.058+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed post stage percentage:         0.00%"}
+{"level":"info","time":"2024-09-18T14:39:05.058+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed Tasks:                         1"}
+{"level":"info","time":"2024-09-18T14:39:05.059+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2024-09-18T14:39:18.457+0530","caller":"cmd/bin.go:345","msg":"Exiting application due to error Failed tasks found."}
+{"level":"debug","time":"2024-09-18T14:39:18.457+0530","caller":"cmd/bin.go:306","msg":"main: all goroutines have finished."}
+{"level":"warn","time":"2024-09-18T14:48:33.198+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-09-18T14:48:33.199+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-09-18T14:48:33.772+0530","caller":"cmd/bin.go:120","msg":"cli os: windows, cli arch: amd64"}
+{"level":"debug","time":"2024-09-18T14:48:34.242+0530","caller":"cmd/bin.go:129","msg":"Upstream version details: {Name:cli Min:0.2.195 Max:0.2.214} "}
+{"level":"warn","time":"2024-09-18T14:48:34.244+0530","caller":"globalconfigvalidator/setup.go:45","msg":"Found user credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"warn","time":"2024-09-18T14:48:34.245+0530","caller":"globalconfigvalidator/setup.go:50","msg":"Found key credentials in env and cli flag both, credentials in env will be ignored"}
+{"level":"debug","time":"2024-09-18T14:48:35.742+0530","caller":"core/lifecycle.go:104","msg":"Setting environment"}
+{"level":"debug","time":"2024-09-18T14:48:35.742+0530","caller":"core/lifecycle.go:107","msg":"Parsing config"}
+{"level":"debug","time":"2024-09-18T14:48:35.742+0530","caller":"yamlconfigmanager/setup.go:593","msg":"Custom location for .hyperexecute.yaml specified. Using: yaml/maestro.yaml"}
+{"level":"debug","time":"2024-09-18T14:48:35.743+0530","caller":"yamlconfigmanager/setup.go:107","msg":"using hyperexecute config from : yaml/maestro.yaml"}
+{"level":"debug","time":"2024-09-18T14:48:36.168+0530","caller":"yamlconfigmanager/setup.go:2177","msg":"Autodetecting test type in files of path : C:\\Users\\mayankmaurya\\Downloads\\maestro-sample-test-main\\maestro-sample-test-main"}
+{"level":"debug","time":"2024-09-18T14:48:36.169+0530","caller":"yamlconfigmanager/setup.go:445","msg":"Tunnel: false"}
+{"level":"info","time":"2024-09-18T14:48:36.169+0530","caller":"models/HypertestYamlConfig.go:638","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2024-09-18T14:48:36.169+0530","caller":"models/HypertestYamlConfig.go:439","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2024-09-18T14:48:36.170+0530","caller":"models/HypertestYamlConfig.go:499","msg":"Runson:    \u001b[36mandroid\u001b[0m"}
+{"level":"info","time":"2024-09-18T14:48:36.170+0530","caller":"models/HypertestYamlConfig.go:507","msg":"Concurrency:    \u001b[36m1\u001b[0m"}
+{"level":"info","time":"2024-09-18T14:48:36.170+0530","caller":"models/HypertestYamlConfig.go:524","msg":"Framework:"}
+{"level":"info","time":"2024-09-18T14:48:36.170+0530","caller":"models/HypertestYamlConfig.go:525","msg":"    Name:    \u001b[36mraw\u001b[0m"}
+{"level":"info","time":"2024-09-18T14:48:36.171+0530","caller":"models/HypertestYamlConfig.go:542","msg":"    Discovery Mode:    \u001b[36mlocal\u001b[0m"}
+{"level":"info","time":"2024-09-18T14:48:36.171+0530","caller":"models/HypertestYamlConfig.go:560","msg":"    discoveryType:    \u001b[36m\u001b[0m"}
+{"level":"info","time":"2024-09-18T14:48:36.171+0530","caller":"models/HypertestYamlConfig.go:571","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2024-09-18T14:48:36.172+0530","caller":"models/HypertestYamlConfig.go:651","msg":""}
+{"level":"debug","time":"2024-09-18T14:48:36.172+0530","caller":"filevalidator/setup.go:46","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2024-09-18T14:48:36.172+0530","caller":"filevalidator/setup.go:50","msg":"Warning: data.json file doesn't exist"}
+{"level":"debug","time":"2024-09-18T14:48:36.172+0530","caller":"frameworks/framework.go:59","msg":"version: 0.2"}
+{"level":"info","time":"2024-09-18T14:48:36.172+0530","caller":"raw/raw.go:124","msg":"Using app with unique id - lt://APP10160541191726649767571201"}
+{"level":"debug","time":"2024-09-18T14:48:36.173+0530","caller":"testdiscoverer/discoverer.go:176","msg":"Running discovery command: {cat ./maestro-test/discover.txt []}"}
+{"level":"debug","time":"2024-09-18T14:48:36.173+0530","caller":"testdiscoverer/discoverer.go:81","msg":"Test Discovery Command: cat ./maestro-test/discover.txt"}
+{"level":"info","time":"2024-09-18T14:48:36.342+0530","caller":"testdiscoverer/discoverer.go:123","msg":"\u001b[4m\u001b[1m\u001b[97mTest Discovery Result: 2\u001b[0m\u001b[22m\u001b[24m"}
+{"level":"info","time":"2024-09-18T14:48:36.343+0530","caller":"testdiscoverer/discoverer.go:124","msg":"    \u001b[2mandroid-swipe.yaml\u001b[22m\n    \u001b[2mandroid-launch.yaml\u001b[22m\n"}
+{"level":"info","time":"2024-09-18T14:48:36.344+0530","caller":"core/lifecycle.go:320","msg":"Total tests discovered: 2"}
+{"level":"debug","time":"2024-09-18T14:48:36.891+0530","caller":"core/lifecycle.go:463","msg":"Job ID: 447fcda1-0574-4456-b3b6-09ae4ce413ba"}
+{"level":"debug","time":"2024-09-18T14:48:36.891+0530","caller":"events/manager.go:95","msg":"Starting event manager"}
+{"level":"debug","time":"2024-09-18T14:48:36.891+0530","caller":"core/lifecycle.go:469","msg":"User has provided raw as test type for the job with ID 447fcda1-0574-4456-b3b6-09ae4ce413ba"}
+{"level":"debug","time":"2024-09-18T14:48:36.891+0530","caller":"events/manager.go:97","msg":"SSE enabled, getting SSE connection"}
+{"level":"debug","time":"2024-09-18T14:48:36.893+0530","caller":"archivemanager/setup.go:340","msg":"digestMap: map[]"}
+{"level":"debug","time":"2024-09-18T14:48:36.893+0530","caller":"archivemanager/setup.go:346","msg":"Creating archive of target directory: C:\\Users\\mayankmaurya\\Downloads\\maestro-sample-test-main\\maestro-sample-test-main"}
+{"level":"debug","time":"2024-09-18T14:48:37.900+0530","caller":"core/lifecycle.go:598","msg":"Zip file size: 9.90 MB"}
+{"level":"debug","time":"2024-09-18T14:48:37.900+0530","caller":"core/lifecycle.go:608","msg":"Archive location: C:\\Users\\mayankmaurya\\Downloads\\maestro-sample-test-main\\maestro-sample-test-main\\hyperexecute-code-447fcda1-0574-4456-b3b6-09ae4ce413ba.zip\n"}
+{"level":"debug","time":"2024-09-18T14:48:37.901+0530","caller":"storage/azure.go:59","msg":"Payload size: 9.90 MB, source path C:\\Users\\mayankmaurya\\Downloads\\maestro-sample-test-main\\maestro-sample-test-main\\hyperexecute-code-447fcda1-0574-4456-b3b6-09ae4ce413ba.zip"}
+{"level":"debug","time":"2024-09-18T14:48:38.089+0530","caller":"events/manager.go:277","msg":"connection to hyperexecute server established successfully."}
+{"level":"info","time":"2024-09-18T14:48:48.198+0530","caller":"storage/azure.go:114","msg":"File upload completed in 10.2970727s"}
+{"level":"debug","time":"2024-09-18T14:48:48.198+0530","caller":"receptionmanager/setup.go:255","msg":"number of entries in runtimes: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-09-18T14:48:48.198+0530","caller":"receptionmanager/setup.go:284","msg":"number of entries in partialreports: 0, switching to new yaml format"}
+{"level":"debug","time":"2024-09-18T14:48:48.199+0530","caller":"receptionmanager/setup.go:172","msg":"Uploading yaml : C:\\Users\\mayankmaurya\\Downloads\\maestro-sample-test-main\\maestro-sample-test-main\\.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2024-09-18T14:48:48.199+0530","caller":"storage/azure.go:59","msg":"Payload size: 2.88 kB, source path C:\\Users\\mayankmaurya\\Downloads\\maestro-sample-test-main\\maestro-sample-test-main\\.updatedhyperexecute.yaml"}
+{"level":"info","time":"2024-09-18T14:48:52.237+0530","caller":"storage/azure.go:114","msg":"File upload completed in 4.0372883s"}
+{"level":"debug","time":"2024-09-18T14:48:52.240+0530","caller":"storage/azure.go:59","msg":"Payload size: 755 B, source path yaml\\mask-447fcda1-0574-4456-b3b6-09ae4ce413ba.yaml"}
+{"level":"info","time":"2024-09-18T14:48:56.257+0530","caller":"storage/azure.go:114","msg":"File upload completed in 4.0175997s"}
+{"level":"debug","time":"2024-09-18T14:48:56.260+0530","caller":"core/lifecycle.go:636","msg":"Successfully deleted code archive: C:\\Users\\mayankmaurya\\Downloads\\maestro-sample-test-main\\maestro-sample-test-main\\hyperexecute-code-447fcda1-0574-4456-b3b6-09ae4ce413ba.zip\n"}
+{"level":"debug","time":"2024-09-18T14:48:58.217+0530","caller":"jobmanager/sse_setup.go:194","msg":"Task id: 83c7a230-eb30-418a-a4fc-d7ae7922c691"}
+{"level":"debug","time":"2024-09-18T14:48:58.217+0530","caller":"jobmanager/sse_setup.go:195","msg":"Sending new task alert to stage manager for taskId: 83c7a230-eb30-418a-a4fc-d7ae7922c691"}
+{"level":"info","time":"2024-09-18T14:49:03.384+0530","caller":"jobmanager/sse_setup.go:85","msg":"\nJob 447fcda1-0574-4456-b3b6-09ae4ce413ba has started RUNNING"}
+{"level":"info","time":"2024-09-18T14:49:03.385+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=447fcda1-0574-4456-b3b6-09ae4ce413ba\n"}
+{"level":"debug","time":"2024-09-18T14:50:31.403+0530","caller":"jobmanager/sse_setup.go:136","msg":"\n\nJob status"}
+{"level":"info","time":"2024-09-18T14:50:31.403+0530","caller":"core/lifecycle.go:716","msg":"taskId:83c7a230-eb30-418a-a4fc-d7ae7922c691 has failed with remark: error in running test suites - step 1 - exit status 1\n"}
+{"level":"debug","time":"2024-09-18T14:50:31.403+0530","caller":"core/lifecycle.go:808","msg":"Context canceled"}
+{"level":"info","time":"2024-09-18T14:50:31.403+0530","caller":"core/lifecycle.go:811","msg":"Stopping pipeline gracefully"}
+{"level":"error","time":"2024-09-18T14:50:31.404+0530","caller":"core/lifecycle.go:814","msg":"2024-09-18T14:48:33+05:30    error    Exiting with error: Failed tasks found."}
+{"level":"info","time":"2024-09-18T14:50:31.404+0530","caller":"jobmanager/manager.go:142","msg":"Job Link: https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=447fcda1-0574-4456-b3b6-09ae4ce413ba\n"}
+{"level":"debug","time":"2024-09-18T14:50:31.405+0530","caller":"core/lifecycle.go:55","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2024-09-18T14:50:31.405+0530","caller":"core/lifecycle.go:56","msg":"Waiting for the goroutines to exit"}
+{"level":"info","time":"2024-09-18T14:50:48.424+0530","caller":"jobmanager/JobSummaryManager.go:54","msg":"\n FAILED \n"}
+{"level":"info","time":"2024-09-18T14:50:48.424+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Test Execution Time:                  22s"}
+{"level":"info","time":"2024-09-18T14:50:48.424+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Job Duration Time:                    1m28s"}
+{"level":"info","time":"2024-09-18T14:50:48.424+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Tasks:                          1"}
+{"level":"info","time":"2024-09-18T14:50:48.425+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Cumulative Time Consumed:             1m28s"}
+{"level":"info","time":"2024-09-18T14:50:48.425+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Total Stages:                         4"}
+{"level":"info","time":"2024-09-18T14:50:48.426+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass discovery stage percentage:      100.00%"}
+{"level":"info","time":"2024-09-18T14:50:48.426+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed discovery stage percentage:    0.00%"}
+{"level":"info","time":"2024-09-18T14:50:48.426+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass pre stage percentage:            100.00%"}
+{"level":"info","time":"2024-09-18T14:50:48.426+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed pre stage percentage:          0.00%"}
+{"level":"info","time":"2024-09-18T14:50:48.426+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass test stage percentage:           0.00%"}
+{"level":"info","time":"2024-09-18T14:50:48.427+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed test stage percentage:         100.00%"}
+{"level":"info","time":"2024-09-18T14:50:48.428+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Pass post stage percentage:           0.00%"}
+{"level":"info","time":"2024-09-18T14:50:48.428+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed post stage percentage:         0.00%"}
+{"level":"info","time":"2024-09-18T14:50:48.428+0530","caller":"jobmanager/JobSummaryManager.go:113","msg":"    Failed Tasks:                         1"}
+{"level":"info","time":"2024-09-18T14:50:48.429+0530","caller":"jobmanager/JobSummaryManager.go:58","msg":""}
+{"level":"debug","time":"2024-09-18T14:51:01.417+0530","caller":"cmd/bin.go:306","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2024-09-18T14:51:01.417+0530","caller":"cmd/bin.go:345","msg":"Exiting application due to error Failed tasks found."}

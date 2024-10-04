@@ -1,0 +1,118 @@
+version: "0.2"
+user: mayankmaurya
+key: vb2QB3komcYoPqlEXN2hHGd33aok6SOZFQA9tUPl8erAiOmw82
+testSuites: []
+pre: [chmod u+x ./maestro-test/setup-script.sh, ./maestro-test/setup-script.sh]
+preDirectives:
+    commands: [chmod u+x ./maestro-test/setup-script.sh, ./maestro-test/setup-script.sh]
+    maxRetries: 0
+    shell: ""
+    workingDirectory: ""
+postDirectives:
+    commands: []
+    shell: ""
+    workingDirectory: ""
+env:
+    MAESTRO: "true"
+runson: linux
+autosplit: true
+concurrency: 1
+testDiscovery:
+    command: cat ./maestro-test/discover.txt
+    mode: static
+    type: raw
+testDiscoveryResult:
+    - android-swipe.yaml
+    - android-launch.yaml
+testDiscoveryResult2D:
+    - - android-swipe.yaml
+    - - android-launch.yaml
+testRunnerCommand: ./maestro-test/runTest.sh $test
+tunnelOpts:
+    testsPerTunnel: 10
+jobID: 447fcda1-0574-4456-b3b6-09ae4ce413ba
+frameworkStatusOnly: true
+codeDirectory: maestro-sample-test-main
+framework:
+    name: raw
+    flags: []
+    discoveryFlags: []
+    discoveryMode: local
+    discoveryType: ""
+    runnerFlags: []
+    workingDirectory: ""
+    isTestNGXMLSuite: false
+    defaultReports: false
+    args:
+        appPath: ""
+        testSuitePath: ""
+        xcTestPlanPath: ""
+        shards:
+            mappings: []
+        filters:
+            attributes: []
+        devices:
+            - Pixel 6
+        deviceSelectionStrategy: ""
+        appId: lt://APP10160541191726649767571201
+        testSuiteAppId: ""
+        xcTestPlanId: ""
+        video: true
+        deviceLog: true
+        buildName: maestro-t1
+        privateCloud: true
+        region: ap
+        reservation: false
+        skipXMLOnRun: false
+        skipInstall: false
+        disableReleaseDevice: true
+        platformName: android
+        isRealMobile: true
+        avoidAppLaunch: false
+        queueTimeout: 600
+        uninstallPreviousBuild: false
+        language: ""
+        locale: ""
+        preservedDevice: false
+        fixedIP: ""
+        resignApp: true
+        minorOsVersion: false
+        playwrightRD: false
+        mobileDC: true
+        skipUninstallPreviousBuild: false
+        isVirtualDevice: false
+    additional_args: null
+    licenseKey: ""
+    userdefinediscovery: false
+    toscaArgs: null
+    version: ""
+    downloadURL: ""
+    baseCommand: ""
+cypress: false
+betaFeature:
+    setPartiallyCompletedAsCompleted: false
+testType: raw
+combineTasksInMatrixMode: false
+captureScreenRecordingForScenarios: false
+maxRetriesPreSteps: 0
+triggerMode: false
+sourcePayload:
+    verifySSL: true
+collectLocalGitData: true
+dynamicAllocation: true
+appium: false
+platformConfig: null
+differentialUpload:
+    enabled: false
+    ttlHours: null
+    forcedDisabled: false
+project:
+    id: ""
+    name: ""
+    type: default
+meta: {}
+alwaysRunPostSteps: false
+errorCategorizedOnFailureOnly: false
+testDiscoveryResultV3: []
+storageType: ""
+localHTTPProxy: ""
