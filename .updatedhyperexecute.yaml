@@ -1,6 +1,6 @@
 version: "0.2"
-user: mayankmaurya
-key: vb2QB3komcYoPqlEXN2hHGd33aok6SOZFQA9tUPl8erAiOmw82
+user: 
+key: 
 testSuites: []
 pre: [chmod u+x ./maestro-test/setup-script.sh, ./maestro-test/setup-script.sh]
 preDirectives:
